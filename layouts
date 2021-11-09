@@ -1,0 +1,51 @@
+<body>
+    <header>
+      <p> Este es el primero</p>  
+  </header>
+  <nav>
+    <p> Este es el segundo</p>
+  </nav>
+  <main>
+    <p> Este es el tercero y el grande</E></p>
+  </main>
+  <footer>
+    <p>Este es el último</p>
+  </footer>
+</body>
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  padding:0;
+  margin:0;
+  display:flex;
+  background-color:olive;
+  flex-direction: column;
+  min-height:100vh;
+}
+
+header{
+  background-color: green;
+  border:5px;
+  padding:40px;
+}
+
+nav{
+  background-color:yellow;
+  padding: 20px;
+}
+
+main{
+  background-color:pink;
+  flex:1;
+}
+
+footer{
+  background-color: lightblue;
+  padding:25px;
+}
+  
